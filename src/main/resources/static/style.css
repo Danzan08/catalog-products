@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    padding-top: 2%;
+    font-family: "Cantarell Thin";
+}
+
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: #eeeeea;
+}
