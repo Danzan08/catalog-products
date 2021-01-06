@@ -19,7 +19,6 @@ public class Product {
     @Column(name = "title")
     private String title;
 
-    @NotNull
     @Size(max = 50)
     @Column(name = "description")
     private String description;
