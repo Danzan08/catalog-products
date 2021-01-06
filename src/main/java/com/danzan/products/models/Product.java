@@ -25,7 +25,7 @@ public class Product {
 
 
 
-    public Product(Integer id, @Size(max = 20) String title, @Size(max = 70) String description) {
+    public Product(Integer id, @Size(max = 20) String title, @Size(max = 50) String description) {
         this.id = id;
         this.title = title;
         this.description = description;
