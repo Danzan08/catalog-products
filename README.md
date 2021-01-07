@@ -5,7 +5,7 @@
 - Java
 - Spring Framework
 - PostgreSQL
-- Bootstrap + Jquery
+- Bootstrap + jQuery
 
 ### Задачи проекта
 
