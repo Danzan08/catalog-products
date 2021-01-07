@@ -22,6 +22,11 @@ public class ProductController {
         this.productRepository = productRepository;
     }
 
+    @RequestMapping("/")
+    public String mainPage() {
+        return "index";
+    }
+
     @GetMapping("/products")
     public ResponseEntity<Iterable<Product>> getAllProducts(@RequestParam(required = false) String title) {
         if(title == null) {
